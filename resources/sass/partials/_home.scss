@@ -6,8 +6,20 @@
         display: flex;
 
         li{
-            padding: 0 $spacing * 2
+            padding: 0 $spacing * 2;
+
+            &:hover a{
+                border-top: 2px solid #FFFFFF;
+                border-bottom: 2px solid #FFFFFF;
+            }
 
         }
+    }
+}
+
+.logo {
+    padding: $spacing;
+    img{
+        width: 100%;
     }
 }

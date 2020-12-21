@@ -20,6 +20,12 @@ h1{
     margin: $spacing * 2 0 ;
 }
 
+h2{
+    color: $fontColorPrimary;
+    text-align: center;
+    margin: $spacing * 2 0 ;
+}
+
 p{
     font-size: $fontSize;
     color: $fontColorPrimary;

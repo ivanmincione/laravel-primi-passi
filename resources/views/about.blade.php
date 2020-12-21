@@ -3,17 +3,16 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{ asset("css/app.css") }}">
-        <title>users</title>
+        <title>about</title>
     </head>
-    <body id="users-body">
+    <body id="about-body">
         <div class="return-home">
             <a href="{{ route("home-page") }}">HOME</a>
         </div>
+
         <div class="container">
-            <h1>Lista utenti</h1>
-            @foreach ($users as $user)
-                <p> {{ $user }} </p>
-            @endforeach
+            <h2>ABOUT</h2>
+            <p> {{ $info }} </p>
         </div>
     </body>
 </html>
