@@ -1,3 +1,20 @@
 #about-body{
     background-color: $bgColorAbout;
+    background-image: url("https://www.limperatore.it/wp-content/uploads/2020/05/section-background.jpg");
+
+    .return-home{
+        a{
+            color: $fontColorSecondary;
+        }
+    }
+
+    h2{
+        color: $fontColorSecondary;
+    }
+
+    p{
+        line-height: 2;
+        color: $fontColorSecondary;
+        font-weight: bold;
+    }
 }

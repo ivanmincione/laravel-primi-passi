@@ -72,13 +72,32 @@ ul {
 
 #users-body {
   background-color: #1f1f1f;
+  background-image: url("https://thumbs.dreamstime.com/b/user-profile-icon-abstract-blue-background-illustration-dark-blue-digital-texture-grunge-elegant-paint-modern-design-concept-user-167078251.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #contact-body {
   background-color: #235290;
+  background-image: url("https://thetestme.com/wp-content/uploads/2019/11/contact-opus-background-1.jpg");
 }
 
 #about-body {
   background-color: #0012d0;
+  background-image: url("https://www.limperatore.it/wp-content/uploads/2020/05/section-background.jpg");
+}
+
+#about-body .return-home a {
+  color: #4d4d4d;
+}
+
+#about-body h2 {
+  color: #4d4d4d;
+}
+
+#about-body p {
+  line-height: 2;
+  color: #4d4d4d;
+  font-weight: bold;
 }
 
