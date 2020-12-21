@@ -23,4 +23,4 @@ Route::get('home-page', function () {
         "surname" => "Bianchi"
     ];
     return view('home', $data);
-});
+})->name("home-page");

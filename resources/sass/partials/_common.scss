@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bgColor;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: $fontSize * 3;
+    color: $fontColorPrimary;
+    text-align: center;
+    margin: $spacing * 2 0 ;
+}
+
+p{
+    font-size: $fontSize;
+    color: $fontColorPrimary;
+}
+
+a{
+    text-decoration: none;
+}

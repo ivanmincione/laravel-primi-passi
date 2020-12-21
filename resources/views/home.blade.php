@@ -7,9 +7,15 @@
     </head>
     <body>
 
-        <h1>Laravel primi passi</h1>
-        <p>
-            Ciao, {{ $name }} {{ $surname }}
-        </p>
+        <div class="container">
+            <a href="{{ route("home-page") }}">
+                <h1>Laravel primi passi</h1>
+            </a>
+
+            <p>
+                Ciao, {{ $name }} {{ $surname }}
+            </p>
+        </div>
+
     </body>
 </html>
