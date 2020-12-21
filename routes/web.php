@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home');
+Route::get('home-page', function () {
+    $data = [
+        "name" => "Topolino",
+        "surname" => "Bianchi"
+    ];
+    return view('home', $data);
 });
