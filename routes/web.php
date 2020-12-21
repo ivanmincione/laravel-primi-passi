@@ -18,9 +18,20 @@ Route::get('/', function () {
 });
 
 Route::get('home-page', function () {
-    $data = [
-        "name" => "Topolino",
-        "surname" => "Bianchi"
-    ];
-    return view('home', $data);
+    return view('home');
 })->name("home-page");
+
+Route::get('users-page', function () {
+    $data = [
+        "users" => [
+            "Topolino",
+            "Paperino",
+            "Pippo",
+            "Pluto",
+            "Paperone",
+            "Minnie",
+            "Paperone"
+        ],
+    ];
+    return view('users', $data);
+})->name("users-page");

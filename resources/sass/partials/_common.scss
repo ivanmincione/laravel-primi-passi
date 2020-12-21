@@ -23,8 +23,16 @@ h1{
 p{
     font-size: $fontSize;
     color: $fontColorPrimary;
+    padding: $spacing;
 }
 
 a{
     text-decoration: none;
+    color: $fontColorPrimary;
+    font-size: $fontSize;
+    padding: $spacing;
+}
+
+ul{
+    list-style-type: none;
 }

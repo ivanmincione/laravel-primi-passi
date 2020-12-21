@@ -23,9 +23,31 @@ h1 {
 p {
   font-size: 18px;
   color: #ffffff;
+  padding: 20px;
 }
 
 a {
   text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding: 0 40px;
 }
 
